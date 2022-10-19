@@ -24,7 +24,7 @@ fn main() {
 
    
 
-        let handler = thread::spawn(|| {
+    let handler = thread::spawn(|| {
             extensiblemongo::start();
         }
     );
